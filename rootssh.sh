@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt-get update
 sudo sed -i 's/\r$//' /root_ssh.sh
 # 需要以sudo权限运行脚本
  if [[ $EUID -ne 0 ]]; then
