@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt-get update
-sudo sed -i 's/\r$//' /root_ssh.sh
+
 # 需要以sudo权限运行脚本
  if [[ $EUID -ne 0 ]]; then
      echo "本脚本需要root权限，请以sudo运行。"
