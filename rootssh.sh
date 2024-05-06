@@ -1,10 +1,10 @@
 #!/bin/bash
-
+sudo sed -i 's/\r$//' /root_ssh.sh
 # 需要以sudo权限运行脚本
-# if [[ $EUID -ne 0 ]]; then
-#     echo "本脚本需要root权限，请以sudo运行。"
-#     exit 1
-# fi
+ if [[ $EUID -ne 0 ]]; then
+     echo "本脚本需要root权限，请以sudo运行。"
+     exit 1
+ fi
 
 # 修改/etc/ssh/sshd_config文件
 SSHD_CONFIG="/etc/ssh/sshd_config"
