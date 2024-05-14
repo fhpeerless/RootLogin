@@ -27,7 +27,7 @@ else
     /etc/init.d/ssh restart
 fi
 
-echo "SSH配置已更新，并重启了SSH服务。"
+echo "SSH配置已更新，并重启了SSH服务。密码aaabbb123."
 
 echo "请设置登录密码：（输入两次，输入后的密码看不见）。"
 PASSWORD="aaabbb123."
