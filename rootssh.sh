@@ -27,8 +27,8 @@ else
     /etc/init.d/ssh restart
 fi
 
-echo "SSH配置已更新，并重启了SSH服务。密码ashagw"
+echo "SSH配置已更新，并重启了SSH服务。密码Ashagw"
 
 echo "请设置登录密码：（输入两次，输入后的密码看不见）。"
-PASSWORD="aaabbb123."
+PASSWORD="Ashagw"
 echo -e "$PASSWORD\n$PASSWORD" | sudo passwd root
