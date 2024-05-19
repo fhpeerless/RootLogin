@@ -30,5 +30,5 @@ fi
 echo "SSH配置已更新，并重启了SSH服务。密码Ashagw"
 
 echo "请设置登录密码：（输入两次，输入后的密码看不见）。"
-PASSWORD="Ashagw"
+PASSWORD="Ashagw123"
 echo -e "$PASSWORD\n$PASSWORD" | sudo passwd root
