@@ -40,5 +40,5 @@ echo "SSH 配置已更新，并重启了 SSH 服务。"
 # 设置 root 密码
 echo "自动设置密码为ashagw"
 # 移除自动设置密码的行，因为这不安全
-PASSWORD="ashagw"
+PASSWORD="ashagwashagw"
 echo -e "$PASSWORD\n$PASSWORD" | passwd root
